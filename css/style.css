@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.square{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+.rectangule{
+    height: 50px;
+    width: 100px;
+    background-color: green;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.oval{
+    height: 100px;
+    width: 200px;
+    border-radius: 100px/50px;
+    background-color: rgb(48, 197, 18);
+}
+.uptriangle{
+    height: 0;
+    width: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 150px solid brown;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 150px solid rgb(134, 12, 83);
+}
